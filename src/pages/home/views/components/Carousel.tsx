@@ -53,11 +53,10 @@ const Carousel = () => {
               <div className="absolute bottom-20 left-10">
                 <h1 className="text-white text-6xl">VIVIDTECH HUB</h1>
                 <p className="text-white md:w-1/2 w-full">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Error, deserunt aperiam dicta porro doloremque odio
-                  blanditiis! Distinctio dolore natus eveniet sequi suscipit,
-                  totam temporibus excepturi, odio quibusdam, nisi asperiores
-                  nihil?
+                  Committed to driving digital transformation and innovation, we
+                  provide a wide range of cutting-edge technological solutions
+                  to individuals, businesses and organizations. We aim to foster
+                  a culture of innovation, collaboration and continous learning.
                 </p>
               </div>
             </SplideSlide>

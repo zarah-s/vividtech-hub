@@ -1,4 +1,5 @@
-import Logo from './images/v-1.jpg'
+import Logo from './images/logo.png'
+import LogoWhite from './images/logo_white.png'
 import Img1 from './images/img1.jpg'
 import Img2 from './images/img2.jpg'
 import Img3 from './images/img3.jpg'
@@ -31,6 +32,63 @@ import Ekomo from './images/team/Ekomo.png'
 import Richard from './images/team/Richard.png'
 import Victoria from './images/team/Victoria.png'
 import Victor from './images/team/Victor.jpg'
+
+
+
+import frontCover from './images/recent_works/001 front cover NEW.jpg'
+import bcm from './images/recent_works/BCM.jpg'
+import beesh from './images/recent_works/Beesh Gray edit.jpg'
+import board from './images/recent_works/board.jpg'
+import divine from './images/recent_works/divine hand total freedom 1.jpg'
+import flyer from './images/recent_works/flyer.jpg'
+import fuzion from './images/recent_works/fuzion lounge 1.jpg'
+import metacomic from './images/recent_works/metacomic flyer 2 main.jpg'
+import newProject from './images/recent_works/new project nasco2.jpg'
+import projectTutorial from './images/recent_works/project tutorial.jpg'
+import quatar from './images/recent_works/Quatar 2022.jpg'
+import santa from './images/recent_works/santa.jpg'
+import spreenklus from './images/recent_works/spreenkuls xmas.jpg'
+import tastychops from './images/recent_works/tastychops rebrand 2.jpg'
+import tbc from './images/recent_works/tbc february 3.jpg'
+import tuscany from './images/recent_works/tuscany.jpg'
+import vth from './images/recent_works/VTH.jpg'
+import vthub from './images/recent_works/vthub asset. remake.jpg'
+import news_1 from './images/news/1.jpg'
+import news_2 from './images/news/2.jpg'
+import news_3 from './images/news/3.jpg'
+import news_4 from './images/news/4.jpg'
+import news_5 from './images/news/5.jpg'
+
+const News = {
+    news_1,
+    news_2,
+    news_3,
+    news_4,
+    news_5,
+}
+
+
+
+const RecentWorks = {
+    frontCover,
+    bcm,
+    beesh,
+    board,
+    divine,
+    flyer,
+    fuzion,
+    metacomic,
+    newProject,
+    projectTutorial,
+    quatar,
+    santa,
+    spreenklus,
+    tastychops,
+    tbc,
+    tuscany,
+    vth,
+    vthub,
+}
 
 
 const Assets = {
@@ -66,6 +124,9 @@ const Assets = {
     Richard,
     Victoria,
     Victor,
+    RecentWorks,
+    News,
+    LogoWhite
 
 
 

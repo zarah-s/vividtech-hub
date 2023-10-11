@@ -6,10 +6,14 @@ import { useState } from "react";
 const NavBar = ({ activeTab }: { activeTab: string }) => {
   const [open, setOpen] = useState<boolean>(false);
   return (
-    <nav className="bg-black fixed top-0 w-full z-50">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
+    <nav className="bg-primary fixed top-0 w-full z-50">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <div className="flex items-center">
-          <img src={Assets.Logo} className="h-8 mr-3" alt="Flowbite Logo" />
+          <img
+            src={Assets.Logo}
+            className="h-32 w-32 mr-3"
+            alt="Flowbite Logo"
+          />
         </div>
         <button
           onClick={() => {
@@ -52,6 +56,17 @@ const NavBar = ({ activeTab }: { activeTab: string }) => {
                 aria-current="page"
               >
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={RoutesPath.news}
+                className={`${
+                  activeTab === "News" ? "font-[700]" : "font-[400]"
+                } text-lg text-white`}
+                aria-current="page"
+              >
+                News Letters
               </Link>
             </li>
             <li>

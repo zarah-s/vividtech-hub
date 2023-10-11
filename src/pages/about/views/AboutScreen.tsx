@@ -11,7 +11,14 @@ const AboutScreen = () => {
   return (
     <div>
       <NavBar activeTab="About" />
-      <img src={Assets.Logo} className="w-full h-[100vh]" alt="" />
+      <div className="mt-44"></div>
+      <div className="flex items-center justify-center">
+        <img
+          src={Assets.LogoWhite}
+          className="w-44 h-[100vh] object-contain"
+          alt=""
+        />
+      </div>
       <Brief />
       <WhyChooseUs />
 

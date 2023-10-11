@@ -10,8 +10,8 @@ const Tasks = () => {
         img={Assets.WebDevelopment}
       />
       <WhatWeDoCard
-        title="MOBILE DEVELOPMENT"
-        content="Design and develope intuitive mobile applications that cater to the needs of modern consumers."
+        title="MOBILE APP DEVELOPMENT"
+        content="Design and develop intuitive mobile applications that cater to the needs of modern consumers."
         img={Assets.MobileDevelopment}
       />
       <WhatWeDoCard
@@ -63,17 +63,17 @@ interface WhatWeDoProps {
 const WhatWeDoCard = ({ content, img, title }: WhatWeDoProps) => {
   return (
     <motion.div
-      initial={{
-        translateY: 100,
-        opacity: 0,
-      }}
-      whileInView={{
-        translateY: 0,
-        opacity: 1,
-      }}
-      transition={{
-        duration: 0.5,
-      }}
+      // initial={{
+      //   translateY: 100,
+      //   opacity: 0,
+      // }}
+      // whileInView={{
+      //   translateY: 0,
+      //   opacity: 1,
+      // }}
+      // transition={{
+      //   duration: 0.5,
+      // }}
       className="rounded-xl  shadow-xl border-l-2 my-5 border-r-2 border-b-2"
     >
       <img src={img} className="rounded-t-xl h-64 w-full object-cover" alt="" />
